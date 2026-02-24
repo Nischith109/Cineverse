@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <h1 class="logo">🎬 Movie Explorer</h1>
+</head>
+<body>
+    <header class="hero">
+        <nav class="navbar">
+            <div class="logo">CINEVERSE</div>
+            <ul class="nav-links">
+                <li>Home</li>
+                <li>Movies</li>
+                <li>Series</li>
+                <li>Top Rated</li>
+            </ul>
+        </nav>
+        <div class="hero-content">
+            <h1>Unlimited Movies, Series & More</h1>
+            <p>Search your favorite movies instantly</p>
+
+            <div class="searchmovie">
+                <input type="text" id="searchhere" placeholder="Search movie...">
+                <button id="searchbtn" onclick="findmovie()">Search</button>
+            </div>
+        </div>
+    </header>
+    <section class="moviesection" id="results">
+        <h2 class="section-title">Explore Movies</h2>
+        <div class="showmoviedetails" id="showmoviedetails"></div>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
+
