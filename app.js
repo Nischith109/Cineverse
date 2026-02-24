@@ -13,7 +13,7 @@ function findmovie(){
     });
 }
 async function getMovie() {
-    let movies= await fetch(`http://www.omdbapi.com/?s=${defaultval}&apikey=8ad03308`);
+    let movies= await fetch(`Your API Key`);
     movies = await movies.json();
     let omdMovies=document.getElementById("showmoviedetails")
     omdMovies.innerHTML="";
